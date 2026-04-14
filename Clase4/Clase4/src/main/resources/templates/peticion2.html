@@ -1,0 +1,16 @@
+<h1>Peticion2</h1>
+
+<h3>Datos desde ListIterator (Stack de Estudiantes)</h3>
+<ul>
+  <li th:each="e : ${listaStack}">
+    Estudiante: [[${e.nombre}]] - Nivel: [[${e.nivel}]] - Sede: [[${e.sede}]]
+  </li>
+</ul>
+
+
+<h3>Datos desde Iterator (Deque del Profesor)</h3>
+<ul>
+  <li th:each="e : ${listaDeque}">
+    Estudiante: [[${e.nombre}]] - Nivel: [[${e.nivel}]] - Sede: [[${e.sede}]]
+  </li>
+</ul>

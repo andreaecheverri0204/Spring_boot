@@ -1,0 +1,8 @@
+<h1>Peticion1</h1>
+<p>Datos del Stack de Estudiantes</p>
+<ul>
+    <li th:each="e : ${stack}">
+        Nombre: [[${e.nombre}]]-Sede: [[${e.sede}]]-Notas: [[${e.calificaciones}]]
+    </li>
+</ul>
+<p>Profesor: [[${profe.nombre}]] - Estudiantes: [[${profe.estudiantes.size()}]]</p>
